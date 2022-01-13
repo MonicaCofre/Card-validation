@@ -1,14 +1,80 @@
 <!DOCTYPE html>
+
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <meta charset="utf-8"> <!--no entiendo que es esta etiqueta-->
+    <title>Tarjeta de crédito válida monica</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header> 
+        <h1>Bienvenidos a nuestra web</h1>
+        <nav>
+          <ul class= "menu">
+            <li><a href="#">Citicar</a></li>
+            <li><a href="#">Camionetas</a></li>
+            <li><a href="#">Camión</a></li>
+          </ul>
+        </nav>
+    </header>
+         
+    <main>
+      <div class= "infoPagina">
+        <h2><span style="font-size: 25px; margin: 21px 0;">"Venta de vehiculos seminuevos" <br> Victor CV </span><br/></h2>
+          <p> Te ayudamos con la forma de comprar. <br> Conoce nuestra promesa de calidad AutoMall <br> Visitanos, inspecciona y revisa nuestras  opciones de financiamiento. </br> </p>
+          
+        
+        <!--imagen segun figma-->
+        <img src= "https://www.nicepng.com/png/detail/290-2903431_autos-flota-de-autos-png.png" alt="50px" sizes="50px" srcset="">
+      </div>
+
+      <div class= "infoForm"> 
+        <form action="" id="formulario"> <!--Datos Formulario, para extraer datos-->
+          <h4> En nuestra pagina podras validar tu tarjeta de crédito y si todo está bien <br> ¡Felicitaciones! Algún auto puede ser tuyo</br></h4>
+
+          <label for = "tarjeta"> Ingresa los numeros de tu tarjeta aquí  </label>
+          <input type="text" id="numberTC" class = "tarjeta" name="tarjeta" placeholder = " xxxx xxxx xxxx xxxx" maxlength="16" minlength="16" required ><br><br><br>
+          <p class ="texto" id ="texto" ></p>
+          <select id ="mes" name = "option" class= "opcion">
+          <option value = "" desactivado seleccionado >Seleccionar Mes</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          </select>
+
+          <select id="year" name="year" class= "opcion">
+          <option value = "" desactivado seleccionado >Seleccionar Año</option>
+          <option value="2022">2022</option> 
+          <option value="2023">2023</option> 
+          <option value="2024">2024</option> 
+          </select>  
+          <br><br>
+          <input type="button" value="VALIDAR" id="validar_enviar" class= "button">
+        </form>
+      </div>
+        <br><br>
+        <div id = "mensaje"> </div>
+    </main>
+    <br><br>
+     <hr/>
+        <h3>RESULTADOS DE VALIDACION</h3>
+         <p></p> EL RESULTADO DE LA TARJETA ES __</p>
+        
+    <footer>
+      <a href= "mailto:cofrev@gmail" title="enviar correo a Victor">Contactanos aquí</a>
+      <p>Americo Vespucio 230, La Granja</p>
+    </footer>
     <script src="index.js" type="module"></script>
+    
   </body>
 </html>
+

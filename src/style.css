@@ -1,0 +1,98 @@
+body {
+    font-family: century gothic;
+    color: white;
+    background-color: #022129;
+    text-align: center;
+    
+}    
+/* Formato primera parte de main 1 div */
+.infoPagina {
+    width: 95%;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: white ;
+    color: blue;
+}
+
+/* Formato base de formulario y 2 div */
+.infoForm {
+    display:inline-block;
+    width: 95%;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    background-color: rgb(191, 226, 36) ;
+    color: rgb(47, 5, 59);
+}
+/* Formato botones, mes, año, validar e ingreso de numeros */
+.infoForm .opcion, 
+.button, 
+.tarjeta{
+    font-family: century gothic;
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+    background: #022129;
+    color: white;
+    border: solid white;
+    font-size: 16px;
+}
+  
+
+h1 {
+    height: 60px;
+    width: 100%;
+    font-style: normal;
+    font-weight: bold;
+ }
+h2 {
+   height: 80px; 
+   width: 100%;
+}
+/* Formato a pie de pagina */
+footer{
+    background: blue ;
+    color:white;
+    margin: 20px 10px;
+    padding: 5 px;
+    border-radius: 20px;
+}
+/* Formato a link pie de página*/
+a{
+    color: white;
+    font-size: 15px;
+    
+}
+/* Formato Menú */
+.menu{
+    width:100%;
+    background:rgb(191, 226, 36);
+    list-style: none;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.menu li {
+    display:inline-block;
+}
+/* Formato a link de menu */
+.menu li a {
+    color: black;
+    font-weight: bold;
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+/* Formato cuando se pasa el mouse sobre link */
+.menu li a:hover {
+    background: white;
+    color:blue;
+    border-radius: 30px;
+    
+}
+

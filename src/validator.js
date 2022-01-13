@@ -1,5 +1,3 @@
-const validator = {
-  // ...
-};
-
-export default validator;
+const validator = {     //objeto validator
+  };
+  export default validator;
